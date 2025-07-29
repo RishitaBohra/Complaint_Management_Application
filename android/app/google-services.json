@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "152496153496",
+    "project_id": "amity-university-70bb2",
+    "storage_bucket": "amity-university-70bb2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:152496153496:android:a730a79fddf5527beac1ed",
+        "android_client_info": {
+          "package_name": "com.example.amity_university"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2hZXCI6nyCvE-iZwc5AD2Y6jD278QVgA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
