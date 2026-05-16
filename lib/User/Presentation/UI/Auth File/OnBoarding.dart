@@ -67,9 +67,9 @@ class _OnBordingScreenState extends State<OnBordingScreen> {
       headerBackgroundColor: Colors.white,
       pageBackgroundColor: Colors.white,
       background: [
-        Center(child: Image.asset('assets/logo.png', height: 400)),
-        Center(child: Image.asset('assets/logo.png', height: 400)),
-        Center(child: Image.asset('assets/logo.png', height: 400)),
+        Center(child: Image.asset('assets/first.png', height: 400)),
+        Center(child: Image.asset('assets/second.png', height: 400)),
+        Center(child: Image.asset('assets/third.png', height: 400)),
       ],
       speed: 1.8,
       pageBodies: [

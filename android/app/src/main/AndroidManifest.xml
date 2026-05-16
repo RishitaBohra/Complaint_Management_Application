@@ -5,7 +5,7 @@
 
     
     <application
-        android:label="Amity University"
+        android:label="ResolveIt"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

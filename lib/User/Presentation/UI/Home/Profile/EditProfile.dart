@@ -277,7 +277,7 @@ class _EditProfileScreenState extends State<EditProfileScreen> {
           emailController.text = data['email'] ?? '';
           addressController.text = data['address'] ?? '';
           if (data['image'] != null && data['image'].toString().isNotEmpty) {
-            _currentImageUrl = "${baseUrl}${data['image']}";
+            _currentImageUrl = "$baseUrl${data['image']}";
           } else {
             _currentImageUrl = null;
           }

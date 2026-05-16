@@ -219,13 +219,11 @@ class _ViewDetailsState extends State<ViewDetails> {
                       detailTile("⚠️ Complaint Type", complaint.complaintType),
                       const Divider(),
 
-                      if (complaint.timeCarpentryCivil != null &&
-                          complaint.timeCarpentryCivil!.isNotEmpty)
-                        detailTile("🛠️ Time Slot (Carpentry/Civil)", complaint.timeCarpentryCivil!),
-                      if (complaint.timePlumbingElectrical != null &&
-                          complaint.timePlumbingElectrical!.isNotEmpty)
+                      if (complaint.timeCarpentryCivil.isNotEmpty)
+                        detailTile("🛠️ Time Slot (Carpentry/Civil)", complaint.timeCarpentryCivil),
+                      if (complaint.timePlumbingElectrical.isNotEmpty)
                         detailTile("🔌 Time Slot (Plumbing/Electrical)",
-                            complaint.timePlumbingElectrical!),
+                            complaint.timePlumbingElectrical),
 
                       const Divider(),
 

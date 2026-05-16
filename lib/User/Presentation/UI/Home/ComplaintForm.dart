@@ -32,7 +32,7 @@ class _ComplaintFormPageState extends State<ComplaintFormPage> {
   String get complaintNumber => complaintCounter.toString().padLeft(4, '0');
 
   bool submitted = false;
-  bool isLoading = true; // loader at start
+  bool isLoading = true; 
   bool formComplete = false;
 
   @override
@@ -63,7 +63,7 @@ class _ComplaintFormPageState extends State<ComplaintFormPage> {
       debugPrint("Error: $e");
     } finally {
       setState(() {
-        isLoading = false; // loader off after fetch
+        isLoading = false; 
       });
     }
   }
@@ -78,7 +78,7 @@ class _ComplaintFormPageState extends State<ComplaintFormPage> {
         descriptionController.text.trim().length >= 50 &&
         selectedComplaintType != null &&
         contactController.text.trim().length == 10 &&
-        !RegExp(r'[0-9]').hasMatch(nameController.text.trim()); // no numbers in name
+        !RegExp(r'[0-9]').hasMatch(nameController.text.trim());
 
     if (formComplete != complete) {
       setState(() {
@@ -90,7 +90,7 @@ class _ComplaintFormPageState extends State<ComplaintFormPage> {
   Future<void> handleSubmit() async {
     setState(() {
       submitted = true;
-      isLoading = true; // loader on during submission
+      isLoading = true; 
     });
 
     SharedPreferences prefs = await SharedPreferences.getInstance();

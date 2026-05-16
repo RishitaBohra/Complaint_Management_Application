@@ -2,7 +2,6 @@ import 'package:amity_university/ServiceProvider/Presentation/Constants/constant
 import 'package:amity_university/ServiceProvider/Presentation/UI/Auth/serviceproviderlogin.dart';
 import 'package:flutter/material.dart';
 import 'package:amity_university/User/Presentation/UI/Auth%20File/LoginScreen.dart';
-import 'package:amity_university/ServiceProvider/Presentation/UI/Auth/serviceproviderlogin.dart';
 
 class PreLoginScreen extends StatefulWidget {
   const PreLoginScreen({super.key});

@@ -195,6 +195,9 @@ import 'package:shared_preferences/shared_preferences.dart';
 import 'package:amity_university/User/Presentation/UI/Auth%20File/LoginScreen.dart';
 import 'package:amity_university/User/Presentation/UI/Home/Profile/EditProfile.dart';
 import 'package:amity_university/User/Presentation/Constants/ColorPicker.dart';
+import 'package:amity_university/ServiceProvider/Presentation/UI/Auth/Preloginscreen.dart';
+
+
 
 class ProfileScreen extends StatefulWidget {
   const ProfileScreen({super.key});
@@ -287,7 +290,7 @@ class _ProfileScreenState extends State<ProfileScreen> {
       if (!mounted) return;
       Navigator.pushAndRemoveUntil(
         context,
-        MaterialPageRoute(builder: (_) => const Loginscreen()),
+        MaterialPageRoute(builder: (_) =>  PreLoginScreen()),
         (route) => false,
       );
     }

@@ -1054,7 +1054,6 @@ import 'package:amity_university/ServiceProvider/Presentation/Constants/constant
 import 'package:amity_university/api_service_baseurl.dart';
 import 'package:camera/camera.dart';
 import 'package:flutter/material.dart';
-import 'package:path_provider/path_provider.dart';
 import 'package:http/http.dart' as http;
 import 'package:amity_university/main.dart';
 
@@ -1319,6 +1318,8 @@ extension StringExtension on String {
 
 // ⬇️ IMPROVED CAMERA SCREEN UI ONLY
 class CameraCaptureScreen extends StatefulWidget {
+  const CameraCaptureScreen({super.key});
+
   @override
   State<CameraCaptureScreen> createState() => _CameraCaptureScreenState();
 }

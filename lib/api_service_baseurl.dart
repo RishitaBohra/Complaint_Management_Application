@@ -1,4 +1,4 @@
 
 
-const String baseUrl = "https://4a20f347cba4.ngrok-free.app/";
-const String uploadsUrl = "https://4a20f347cba4.ngrok-free.app/";
+const String baseUrl = "http://192.168.31.254:3000/";
+const String uploadsUrl = "http://192.168.31.254:3000/";

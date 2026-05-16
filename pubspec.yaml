@@ -110,7 +110,6 @@
 #   # see https://flutter.dev/to/font-from-package
 
 
-
 name: amity_university
 description: "A new Flutter project."
 publish_to: 'none'
@@ -136,7 +135,6 @@ dependencies:
   http: ^1.1.0
   shared_preferences: ^2.2.3
   image_picker: ^1.0.7
-
   flutter_image_compress: ^2.1.0
   path: ^1.8.3
   awesome_toster: ^0.0.3  
@@ -147,23 +145,24 @@ dependencies:
   camera: ^0.10.5+2
   path_provider: ^2.1.1
 
-
-
-
-
-
-
-
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^5.0.0
   build_runner: ^2.4.6
   json_serializable: ^6.7.1
+  flutter_launcher_icons: ^0.12.0
 
 flutter:
   uses-material-design: true
 
   assets:
-    - assets/
+    - assets/logo.png
+    - assets/first.png
+    - assets/second.png
+    - assets/third.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/logo.png"

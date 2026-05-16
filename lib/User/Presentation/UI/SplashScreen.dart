@@ -1,5 +1,4 @@
 import 'dart:async';
-import 'package:amity_university/User/Presentation/UI/Auth%20File/LoginScreen.dart';
 import 'package:amity_university/User/Presentation/UI/Auth%20File/OnBoarding.dart';
 import 'package:amity_university/User/Presentation/UI/Home/Home.dart';
 import 'package:animated_splash_screen/animated_splash_screen.dart';

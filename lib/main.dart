@@ -158,17 +158,11 @@
 
 
 
-import 'dart:io';
 
-import 'package:amity_university/ServiceProvider/Presentation/UI/Auth/Preloginscreen.dart';
-import 'package:amity_university/ServiceProvider/Presentation/UI/Auth/serviceproviderlogin.dart';
-import 'package:amity_university/ServiceProvider/Presentation/UI/Home/EndProcess/AfterPhoto.dart';
 import 'package:amity_university/ServiceProvider/Presentation/UI/Home/Serviceproviderhome.dart';
 import 'package:amity_university/User/Presentation/Constants/ColorPicker.dart';
-import 'package:amity_university/User/Presentation/UI/Auth%20File/LoginScreen.dart';
 import 'package:amity_university/User/Presentation/UI/Home/Home.dart';
 import 'package:amity_university/User/Presentation/UI/SplashScreen.dart';
-import 'package:amity_university/Ztext.dart';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';

@@ -6,7 +6,6 @@ import 'package:amity_university/ServiceProvider/Presentation/UI/auth/servicepro
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:amity_university/User/Presentation/UI/Auth%20File/OTPScreen.dart';
 import 'package:amity_university/User/Presentation/Constants/ColorPicker.dart';
 import 'package:amity_university/api_service_baseurl.dart'; 
 

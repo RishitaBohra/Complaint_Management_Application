@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:amity_university/User/Presentation/Constants/ColorPicker.dart';
-import 'package:amity_university/User/Presentation/UI/Home/Viewdetails.dart';
 import 'package:amity_university/User/Presentation/model/complaint_model.dart' as model;
 import 'package:amity_university/api_service_baseurl.dart';
 import 'package:amity_university/ServiceProvider/Presentation/UI/Home/viewcomplaintdetails.dart';

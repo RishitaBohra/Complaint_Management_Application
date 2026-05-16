@@ -204,6 +204,7 @@ import 'package:amity_university/ServiceProvider/Presentation/UI/Auth/servicepro
 import 'package:amity_university/ServiceProvider/Presentation/UI/Home/Profile/serviceprovidereditprofile.dart';
 import 'package:amity_university/User/Presentation/Constants/ColorPicker.dart';
 import 'package:amity_university/api_service_baseurl.dart';
+import 'package:amity_university/ServiceProvider/Presentation/UI/Auth/Preloginscreen.dart';
 
 class ServiceProviderProfileScreen extends StatefulWidget {
   const ServiceProviderProfileScreen({super.key});
@@ -303,7 +304,7 @@ class _ServiceProviderProfileScreenState
       if (!mounted) return;
       Navigator.pushAndRemoveUntil(
         context,
-        MaterialPageRoute(builder: (_) => const ServiceProviderLoginScreen()),
+        MaterialPageRoute(builder: (_) => PreLoginScreen()),
         (route) => false,
       );
     }
@@ -334,7 +335,7 @@ class _ServiceProviderProfileScreenState
                       CircleAvatar(
                         radius: 60,
                         backgroundImage: profileData!['image'] != null
-                            ? NetworkImage("${baseUrl}${profileData!['image']}")
+                            ? NetworkImage("$baseUrl${profileData!['image']}")
                             : const AssetImage('assets/logo.png')
                                 as ImageProvider,
                       ),
