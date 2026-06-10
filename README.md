@@ -105,25 +105,43 @@ COMPLAINT_MANAGEMENT_APP/
 
 ---
 
-# Screenshots
+<!-- # Screenshots
 
 ## User Home Screen
 
-![Home](assets/first.png)
+![Home](assets/home.png)
 
 ---
 
-## Complaint Dashboard
+## Complaint Form
 
-![Dashboard](assets/second.png)
+![Complaint Form](assets/form.png)
 
 ---
 
 ## Complaint Details
 
-![Details](assets/third.png)
+![Details](assets/details.png)
 
 ---
+
+## Service Provider Dashboard
+
+![Dashboard](assets/dashboard.png)
+
+---
+
+## Pending Complaints
+
+![Pending](assets/pending.png)
+
+---
+
+## Completed Complaints
+
+![Completed](assets/completed.png)
+
+--- -->
 
 # Backend Setup
 
